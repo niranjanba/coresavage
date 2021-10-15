@@ -173,6 +173,15 @@
         duration: 800,
         easing: "ease-in-out",
     });
+    $(document).ready(function () {
+        $("#autoWidth").lightSlider({
+            autoWidth: true,
+            loop: true,
+            onSliderLoad: function () {
+                $("#autoWidth").removeClass("cS-hidden");
+            },
+        });
+    });
 })(jQuery);
 
 //new range slider
