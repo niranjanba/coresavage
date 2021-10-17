@@ -670,6 +670,9 @@ h6,
 }
 
 @media (max-width: 768px) {
+    .slick-slider .slick-next {
+        display: none;
+    }
     #header .logo img {
         padding: 0;
         margin: 0px;
